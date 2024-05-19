@@ -6,8 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scrap": "node index.js",
-    "prod": "node selenium.js"
+    "scrap": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +15,8 @@
     "dom-parser": "^1.1.5",
     "node-html-parser": "^6.1.13",
     "playwright": "^1.43.1",
-    "selenium-webdriver": "^4.20.0"
+    "playwright-extra": "^4.3.6",
+    "playwright-extra-plugin-stealth": "^0.0.1",
+    "uuid": "^9.0.1"
   }
 }
